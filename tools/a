@@ -1,0 +1,65 @@
+#!/bin/bash
+
+color_t()
+{
+    if [ $1 -eq 0 ] ;then
+        echo -ne "\033[20;0m"
+    elif [ $1 -eq 1 ];then
+        echo -ne "\033[32:1m"
+    elif [ $1 -eq 2 ];then
+        echo -ne "\033[31:1m"
+    fi
+}
+
+echo -n "aclocal ......"
+aclocal
+if [ $? -eq 0 ] ;then
+    color_t 1
+    echo "OK"
+    color_t 0
+else
+    color_t 2
+    echo "ERR"
+    color_t 0
+    exit 1
+fi
+
+echo -n "autoheader ..."
+autoheader
+if [ $? -eq 0 ] ;then
+    color_t 1
+    echo "OK"
+    color_t 0
+else
+    color_t 2
+    echo "ERR"
+    color_t 0
+    exit 1
+fi
+
+echo -n "autoconf ....."
+autoconf
+if [ $? -eq 0 ] ;then
+    color_t 1
+    echo "OK"
+    color_t 0
+else
+    color_t 2
+    echo "ERR"
+    color_t 0
+    exit 1
+fi
+
+echo -n "automake ....."
+automake --add-missing
+if [ $? -eq 0 ] ;then
+    color_t 1
+    echo "OK"
+    color_t 0
+else
+    color_t 2
+    echo "ERR"
+    color_t 0
+    exit 1
+fi
+

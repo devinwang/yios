@@ -1,0 +1,174 @@
+/* include/yios/config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* debug */
+#undef CFG_DEBUG
+
+/* debug method message */
+#undef CFG_DEBUG_METHOD_MESSAGE
+
+/* debug method port */
+#undef CFG_DEBUG_METHOD_SERIAL_PORT
+
+/* normal keybord */
+#undef CFG_DRIVER_NKB
+
+/* ps2 mouse */
+#undef CFG_DRIVER_PS2MOUSE
+
+/* file system support */
+#undef CFG_FS
+
+/* max fd per process */
+#undef CFG_FS_PROCESS_MAX_FD
+
+/* tiny file system support */
+#undef CFG_FS_TFS
+
+/* max file number in tiny file system. */
+#undef CFG_FS_TFS_MAX_FILE
+
+/* gui */
+#undef CFG_GUI
+
+/* max interrupter */
+#undef CFG_INT_MAX_INTERRUPTER
+
+/* kernel */
+#undef CFG_KERNEL
+
+/* kernel compressed */
+#undef CFG_KERNEL_COMPRESSED
+
+/* kernel image paddr */
+#undef CFG_KERNEL_IMAGE_PADDR
+
+/* oskernel.sys paddr */
+#undef CFG_KERNEL_OSKERNELSYS_PADDR
+
+/* thread relationship */
+#undef CFG_KERNEL_SCHED_HAVE_THREAD_RELATIONSHIP
+
+/* kernel sched HZ */
+#undef CFG_KERNEL_SCHED_HZ
+
+/* priority maximum */
+#undef CFG_KERNEL_SCHED_MAX_PRIORITY
+
+/* thread maximum */
+#undef CFG_KERNEL_SCHED_MAX_THREAD
+
+/* rate monotonic sched method */
+#undef CFG_KERNEL_SCHED_METHOD_RM
+
+/* sched method timeslice */
+#undef CFG_KERNEL_SCHED_METHOD_TIMESLICE
+
+/* gb2312 support */
+#undef CFG_LANG_GB2312
+
+/* memory management */
+#undef CFG_MM_MM
+
+/* memory management unit */
+#undef CFG_MM_MMU
+
+/* microwindows support */
+#undef CFG_MW
+
+/* platform */
+#undef CFG_PLATFORM
+
+/* vbe */
+#undef CFG_VBE
+
+/* vbe mode */
+#undef CFG_VBE_MODE
+
+/* yios kernel */
+#undef CFG_YIOS_KERNEL
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if long double works and has more range or precision than
+   double. */
+#undef HAVE_LONG_DOUBLE
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if cpp supports the ANSI # stringizing operator. */
+#undef HAVE_STRINGIZE
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if the C compiler supports function prototypes. */
+#undef PROTOTYPES
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Version number of package */
+#undef VERSION
+
+/* Define to 1 if your processor stores words with the most significant byte
+   first (like Motorola and SPARC, unlike Intel and VAX). */
+#undef WORDS_BIGENDIAN
+
+/* Define to 1 if type `char' is unsigned and you are not using gcc.  */
+#ifndef __CHAR_UNSIGNED__
+# undef __CHAR_UNSIGNED__
+#endif
+
+/* Define like PROTOTYPES; this can be used by system headers. */
+#undef __PROTOTYPES
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif
+
+/* Define to empty if the keyword `volatile' does not work. Warning: valid
+   code using `volatile' can become incorrect without. Disable with care. */
+#undef volatile

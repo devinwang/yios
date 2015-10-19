@@ -1,0 +1,460 @@
+m4trace:aclocal.m4:370: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
+m4trace:configure.ac:43: -1- AC_INIT([yios], [0.0.1], [vhd@21cn.com])
+m4trace:configure.ac:43: -1- m4_pattern_forbid([^_?A[CHUM]_])
+m4trace:configure.ac:43: -1- m4_pattern_forbid([_AC_])
+m4trace:configure.ac:43: -1- m4_pattern_forbid([^LIBOBJS$], [do not use LIBOBJS directly, use AC_LIBOBJ (see section `AC_LIBOBJ vs LIBOBJS'])
+m4trace:configure.ac:43: -1- m4_pattern_allow([^AS_FLAGS$])
+m4trace:configure.ac:43: -1- m4_pattern_forbid([^_?m4_])
+m4trace:configure.ac:43: -1- m4_pattern_forbid([^dnl$])
+m4trace:configure.ac:43: -1- m4_pattern_forbid([^_?AS_])
+m4trace:configure.ac:43: -1- AC_SUBST([SHELL], [${CONFIG_SHELL-/bin/sh}])
+m4trace:configure.ac:43: -1- AC_SUBST([PATH_SEPARATOR])
+m4trace:configure.ac:43: -1- AC_SUBST([PACKAGE_NAME], [m4_ifdef([AC_PACKAGE_NAME],      ['AC_PACKAGE_NAME'])])
+m4trace:configure.ac:43: -1- AC_SUBST([PACKAGE_TARNAME], [m4_ifdef([AC_PACKAGE_TARNAME],   ['AC_PACKAGE_TARNAME'])])
+m4trace:configure.ac:43: -1- AC_SUBST([PACKAGE_VERSION], [m4_ifdef([AC_PACKAGE_VERSION],   ['AC_PACKAGE_VERSION'])])
+m4trace:configure.ac:43: -1- AC_SUBST([PACKAGE_STRING], [m4_ifdef([AC_PACKAGE_STRING],    ['AC_PACKAGE_STRING'])])
+m4trace:configure.ac:43: -1- AC_SUBST([PACKAGE_BUGREPORT], [m4_ifdef([AC_PACKAGE_BUGREPORT], ['AC_PACKAGE_BUGREPORT'])])
+m4trace:configure.ac:43: -1- AC_SUBST([exec_prefix], [NONE])
+m4trace:configure.ac:43: -1- AC_SUBST([prefix], [NONE])
+m4trace:configure.ac:43: -1- AC_SUBST([program_transform_name], [s,x,x,])
+m4trace:configure.ac:43: -1- AC_SUBST([bindir], ['${exec_prefix}/bin'])
+m4trace:configure.ac:43: -1- AC_SUBST([sbindir], ['${exec_prefix}/sbin'])
+m4trace:configure.ac:43: -1- AC_SUBST([libexecdir], ['${exec_prefix}/libexec'])
+m4trace:configure.ac:43: -1- AC_SUBST([datadir], ['${prefix}/share'])
+m4trace:configure.ac:43: -1- AC_SUBST([sysconfdir], ['${prefix}/etc'])
+m4trace:configure.ac:43: -1- AC_SUBST([sharedstatedir], ['${prefix}/com'])
+m4trace:configure.ac:43: -1- AC_SUBST([localstatedir], ['${prefix}/var'])
+m4trace:configure.ac:43: -1- AC_SUBST([libdir], ['${exec_prefix}/lib'])
+m4trace:configure.ac:43: -1- AC_SUBST([includedir], ['${prefix}/include'])
+m4trace:configure.ac:43: -1- AC_SUBST([oldincludedir], ['/usr/include'])
+m4trace:configure.ac:43: -1- AC_SUBST([infodir], ['${prefix}/info'])
+m4trace:configure.ac:43: -1- AC_SUBST([mandir], ['${prefix}/man'])
+m4trace:configure.ac:43: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_NAME])
+m4trace:configure.ac:43: -1- AH_OUTPUT([PACKAGE_NAME], [/* Define to the full name of this package. */
+#undef PACKAGE_NAME])
+m4trace:configure.ac:43: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_TARNAME])
+m4trace:configure.ac:43: -1- AH_OUTPUT([PACKAGE_TARNAME], [/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME])
+m4trace:configure.ac:43: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_VERSION])
+m4trace:configure.ac:43: -1- AH_OUTPUT([PACKAGE_VERSION], [/* Define to the version of this package. */
+#undef PACKAGE_VERSION])
+m4trace:configure.ac:43: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_STRING])
+m4trace:configure.ac:43: -1- AH_OUTPUT([PACKAGE_STRING], [/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING])
+m4trace:configure.ac:43: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE_BUGREPORT])
+m4trace:configure.ac:43: -1- AH_OUTPUT([PACKAGE_BUGREPORT], [/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT])
+m4trace:configure.ac:43: -1- AC_SUBST([build_alias])
+m4trace:configure.ac:43: -1- AC_SUBST([host_alias])
+m4trace:configure.ac:43: -1- AC_SUBST([target_alias])
+m4trace:configure.ac:43: -1- AC_SUBST([DEFS])
+m4trace:configure.ac:43: -1- AC_SUBST([ECHO_C])
+m4trace:configure.ac:43: -1- AC_SUBST([ECHO_N])
+m4trace:configure.ac:43: -1- AC_SUBST([ECHO_T])
+m4trace:configure.ac:43: -1- AC_SUBST([LIBS])
+m4trace:configure.ac:45: -1- AC_CONFIG_AUX_DIR([acauxdir])
+m4trace:configure.ac:47: -1- AC_CANONICAL_SYSTEM
+m4trace:configure.ac:47: -1- AC_CANONICAL_HOST
+m4trace:configure.ac:47: -1- AC_SUBST([build], [$ac_cv_build])
+m4trace:configure.ac:47: -1- AC_SUBST([build_cpu], [`echo $ac_cv_build | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\1/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([build_vendor], [`echo $ac_cv_build | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\2/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([build_os], [`echo $ac_cv_build | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\3/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([host], [$ac_cv_host])
+m4trace:configure.ac:47: -1- AC_SUBST([host_cpu], [`echo $ac_cv_host | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\1/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([host_vendor], [`echo $ac_cv_host | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\2/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([host_os], [`echo $ac_cv_host | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\3/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([target], [$ac_cv_target])
+m4trace:configure.ac:47: -1- AC_SUBST([target_cpu], [`echo $ac_cv_target | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\1/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([target_vendor], [`echo $ac_cv_target | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\2/'`])
+m4trace:configure.ac:47: -1- AC_SUBST([target_os], [`echo $ac_cv_target | sed 's/^\([[^-]]*\)-\([[^-]]*\)-\(.*\)$/\3/'`])
+m4trace:configure.ac:50: -1- AM_INIT_AUTOMAKE([yios], [0.0.1])
+m4trace:configure.ac:50: -1- AM_AUTOMAKE_VERSION([1.6.3])
+m4trace:configure.ac:50: -1- AC_PROG_INSTALL
+m4trace:configure.ac:50: -1- AC_SUBST([INSTALL_PROGRAM])
+m4trace:configure.ac:50: -1- AC_SUBST([INSTALL_SCRIPT])
+m4trace:configure.ac:50: -1- AC_SUBST([INSTALL_DATA])
+m4trace:configure.ac:50: -1- AC_SUBST([PACKAGE], [yios])
+m4trace:configure.ac:50: -1- AC_SUBST([VERSION], [0.0.1])
+m4trace:configure.ac:50: -1- AC_DEFINE_TRACE_LITERAL([PACKAGE])
+m4trace:configure.ac:50: -1- AH_OUTPUT([PACKAGE], [/* Name of package */
+#undef PACKAGE])
+m4trace:configure.ac:50: -1- AC_DEFINE_TRACE_LITERAL([VERSION])
+m4trace:configure.ac:50: -1- AH_OUTPUT([VERSION], [/* Version number of package */
+#undef VERSION])
+m4trace:configure.ac:50: -1- AC_SUBST([ACLOCAL])
+m4trace:configure.ac:50: -1- AC_SUBST([AUTOCONF])
+m4trace:configure.ac:50: -1- AC_SUBST([AUTOMAKE])
+m4trace:configure.ac:50: -1- AC_SUBST([AUTOHEADER])
+m4trace:configure.ac:50: -1- AC_SUBST([MAKEINFO])
+m4trace:configure.ac:50: -1- AC_SUBST([AMTAR])
+m4trace:configure.ac:50: -1- AC_SUBST([install_sh])
+m4trace:configure.ac:50: -1- AC_SUBST([STRIP])
+m4trace:configure.ac:50: -1- AC_SUBST([ac_ct_STRIP])
+m4trace:configure.ac:50: -1- AC_SUBST([INSTALL_STRIP_PROGRAM])
+m4trace:configure.ac:50: -1- AC_PROG_AWK
+m4trace:configure.ac:50: -1- AC_SUBST([AWK])
+m4trace:configure.ac:50: -1- AC_PROG_MAKE_SET
+m4trace:configure.ac:50: -1- AC_SUBST([SET_MAKE])
+m4trace:configure.ac:52: -1- AM_MAINTAINER_MODE
+m4trace:configure.ac:52: -1- AM_CONDITIONAL([MAINTAINER_MODE], [test $USE_MAINTAINER_MODE = yes])
+m4trace:configure.ac:52: -1- AC_SUBST([MAINTAINER_MODE_TRUE])
+m4trace:configure.ac:52: -1- AC_SUBST([MAINTAINER_MODE_FALSE])
+m4trace:configure.ac:52: -1- AC_SUBST([MAINT])
+m4trace:configure.ac:68: -1- AC_SUBST([LIBTOOL], [])
+m4trace:configure.ac:72: -1- AC_SUBST([AR], [${host_alias}-ar])
+m4trace:configure.ac:73: -1- AC_SUBST([LD], [${host_alias}-ld])
+m4trace:configure.ac:77: -1- AC_SUBST([AR], [${host_alias}-ar])
+m4trace:configure.ac:78: -1- AC_SUBST([LD], [${host_alias}-ld])
+m4trace:configure.ac:84: -1- AC_PROG_CC
+m4trace:configure.ac:84: -1- AC_SUBST([CC])
+m4trace:configure.ac:84: -1- AC_SUBST([CFLAGS])
+m4trace:configure.ac:84: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.ac:84: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.ac:84: -1- AC_SUBST([CC])
+m4trace:configure.ac:84: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:84: -1- AC_SUBST([CC])
+m4trace:configure.ac:84: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:84: -1- AC_SUBST([CC])
+m4trace:configure.ac:84: -1- AC_SUBST([CC])
+m4trace:configure.ac:84: -1- AC_SUBST([ac_ct_CC])
+m4trace:configure.ac:84: -1- AC_SUBST([EXEEXT], [$ac_cv_exeext])
+m4trace:configure.ac:84: -1- AC_SUBST([OBJEXT], [$ac_cv_objext])
+m4trace:configure.ac:84: -1- AC_SUBST([DEPDIR])
+m4trace:configure.ac:84: -1- AC_SUBST([am__include])
+m4trace:configure.ac:84: -1- AC_SUBST([am__quote])
+m4trace:configure.ac:84: -1- AM_CONDITIONAL([AMDEP], [test "x$enable_dependency_tracking" != xno])
+m4trace:configure.ac:84: -1- AC_SUBST([AMDEP_TRUE])
+m4trace:configure.ac:84: -1- AC_SUBST([AMDEP_FALSE])
+m4trace:configure.ac:84: -1- AC_SUBST([AMDEPBACKSLASH])
+m4trace:configure.ac:84: -1- AC_SUBST([CCDEPMODE], [depmode=$am_cv_CC_dependencies_compiler_type])
+m4trace:configure.ac:85: -1- AC_PROG_CPP
+m4trace:configure.ac:85: -1- AC_SUBST([CPP])
+m4trace:configure.ac:85: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.ac:85: -1- AC_SUBST([CPP])
+m4trace:configure.ac:86: -1- AC_PROG_CXX
+m4trace:configure.ac:86: -1- AC_SUBST([CXX])
+m4trace:configure.ac:86: -1- AC_SUBST([CXXFLAGS])
+m4trace:configure.ac:86: -1- AC_SUBST([LDFLAGS])
+m4trace:configure.ac:86: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.ac:86: -1- AC_SUBST([CXX])
+m4trace:configure.ac:86: -1- AC_SUBST([ac_ct_CXX])
+m4trace:configure.ac:86: -1- AC_SUBST([CXXDEPMODE], [depmode=$am_cv_CXX_dependencies_compiler_type])
+m4trace:configure.ac:87: -1- AC_SUBST([CXXCPP])
+m4trace:configure.ac:87: -1- AC_SUBST([CPPFLAGS])
+m4trace:configure.ac:87: -1- AC_SUBST([CXXCPP])
+m4trace:configure.ac:88: -1- AC_SUBST([CCAS])
+m4trace:configure.ac:88: -1- AC_SUBST([CCASFLAGS])
+m4trace:configure.ac:89: -1- AC_PROG_RANLIB
+m4trace:configure.ac:89: -1- AC_SUBST([RANLIB])
+m4trace:configure.ac:89: -1- AC_SUBST([ac_ct_RANLIB])
+m4trace:configure.ac:90: -1- AC_LIBSOURCE([.c])
+m4trace:configure.ac:90: -1- AC_SUBST([LIB@&t@OBJS])
+m4trace:configure.ac:92: -1- AC_PROG_AWK
+m4trace:configure.ac:92: -1- AC_SUBST([AWK])
+m4trace:configure.ac:93: -1- AC_SUBST([EGREP])
+m4trace:configure.ac:94: -1- AC_SUBST([FGREP])
+m4trace:configure.ac:95: -1- AC_PROG_INSTALL
+m4trace:configure.ac:95: -1- AC_SUBST([INSTALL_PROGRAM])
+m4trace:configure.ac:95: -1- AC_SUBST([INSTALL_SCRIPT])
+m4trace:configure.ac:95: -1- AC_SUBST([INSTALL_DATA])
+m4trace:configure.ac:96: -1- AC_PROG_LN_S
+m4trace:configure.ac:96: -1- AC_SUBST([LN_S], [$as_ln_s])
+m4trace:configure.ac:102: -1- AC_SUBST([CPPFLAGS], ["-g -Wall -nostdinc"])
+m4trace:configure.ac:103: -1- AC_SUBST([CFLAGS], ["-Wall -nostdinc"])
+m4trace:configure.ac:107: -1- AC_SUBST([INCLUDES], ["-I \${top_srcdir}/include -I \${top_builddir}/include"])
+m4trace:configure.ac:117: -1- AC_DEFINE_TRACE_LITERAL([WORDS_BIGENDIAN])
+m4trace:configure.ac:117: -1- AH_OUTPUT([WORDS_BIGENDIAN], [/* Define to 1 if your processor stores words with the most significant byte
+   first (like Motorola and SPARC, unlike Intel and VAX). */
+#undef WORDS_BIGENDIAN])
+m4trace:configure.ac:118: -1- AC_C_CONST
+m4trace:configure.ac:118: -1- AC_DEFINE_TRACE_LITERAL([const])
+m4trace:configure.ac:118: -1- AH_OUTPUT([const], [/* Define to empty if `const\' does not conform to ANSI C. */
+#undef const])
+m4trace:configure.ac:119: -1- AC_C_INLINE
+m4trace:configure.ac:119: -1- AC_DEFINE_TRACE_LITERAL([inline])
+m4trace:configure.ac:119: -1- AH_OUTPUT([inline], [/* Define as `__inline\' if that\'s what the C compiler calls it, or to nothing
+   if it is not supported. */
+#undef inline])
+m4trace:configure.ac:119: -1- AC_DEFINE_TRACE_LITERAL([inline])
+m4trace:configure.ac:120: -1- AH_OUTPUT([__CHAR_UNSIGNED__], [/* Define to 1 if type `char\' is unsigned and you are not using gcc.  */
+#ifndef __CHAR_UNSIGNED__
+# undef __CHAR_UNSIGNED__
+#endif])
+m4trace:configure.ac:120: -1- AC_HEADER_STDC
+m4trace:configure.ac:120: -1- AC_DEFINE_TRACE_LITERAL([STDC_HEADERS])
+m4trace:configure.ac:120: -1- AH_OUTPUT([STDC_HEADERS], [/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS])
+m4trace:configure.ac:120: -1- AC_CHECK_HEADERS([sys/types.h sys/stat.h stdlib.h string.h memory.h strings.h \
+                  inttypes.h stdint.h unistd.h], [], [], [$ac_includes_default])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_SYS_TYPES_H], [/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_SYS_STAT_H], [/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_STDLIB_H], [/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_STRING_H], [/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_MEMORY_H], [/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_STRINGS_H], [/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_INTTYPES_H], [/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_STDINT_H], [/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H])
+m4trace:configure.ac:120: -1- AH_OUTPUT([HAVE_UNISTD_H], [/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H])
+m4trace:configure.ac:120: -1- AC_DEFINE_TRACE_LITERAL([__CHAR_UNSIGNED__])
+m4trace:configure.ac:121: -1- AC_DEFINE_TRACE_LITERAL([HAVE_LONG_DOUBLE])
+m4trace:configure.ac:121: -1- AH_OUTPUT([HAVE_LONG_DOUBLE], [/* Define to 1 if long double works and has more range or precision than
+   double. */
+#undef HAVE_LONG_DOUBLE])
+m4trace:configure.ac:122: -1- AC_DEFINE_TRACE_LITERAL([HAVE_STRINGIZE])
+m4trace:configure.ac:122: -1- AH_OUTPUT([HAVE_STRINGIZE], [/* Define to 1 if cpp supports the ANSI @%:@ stringizing operator. */
+#undef HAVE_STRINGIZE])
+m4trace:configure.ac:123: -1- AC_C_VOLATILE
+m4trace:configure.ac:123: -1- AC_DEFINE_TRACE_LITERAL([volatile])
+m4trace:configure.ac:123: -1- AH_OUTPUT([volatile], [/* Define to empty if the keyword `volatile\' does not work. Warning: valid
+   code using `volatile\' can become incorrect without. Disable with care. */
+#undef volatile])
+m4trace:configure.ac:124: -1- AC_DEFINE_TRACE_LITERAL([PROTOTYPES])
+m4trace:configure.ac:124: -1- AH_OUTPUT([PROTOTYPES], [/* Define to 1 if the C compiler supports function prototypes. */
+#undef PROTOTYPES])
+m4trace:configure.ac:124: -1- AC_DEFINE_TRACE_LITERAL([__PROTOTYPES])
+m4trace:configure.ac:124: -1- AH_OUTPUT([__PROTOTYPES], [/* Define like PROTOTYPES; this can be used by system headers. */
+#undef __PROTOTYPES])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_PLATFORM])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_YIOS_KERNEL])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_YIOS_KERNEL], [/* yios kernel */
+#undef CFG_YIOS_KERNEL])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_PLATFORM])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_PLATFORM], [/* platform */
+#undef CFG_PLATFORM])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DEBUG])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DEBUG], [/* debug */
+#undef CFG_DEBUG])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_DEBUG], [test ${CFG_DEBUG} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DEBUG_METHOD_SERIAL_PORT])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DEBUG_METHOD_SERIAL_PORT], [/* debug method port */
+#undef CFG_DEBUG_METHOD_SERIAL_PORT])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_DEBUG_METHOD_SERIAL_PORT], [test ${CFG_DEBUG_METHOD_SERIAL_PORT} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_METHOD_SERIAL_PORT_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_METHOD_SERIAL_PORT_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DEBUG_METHOD_MESSAGE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DEBUG_METHOD_MESSAGE], [/* debug method message */
+#undef CFG_DEBUG_METHOD_MESSAGE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL], [/* kernel */
+#undef CFG_KERNEL])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_COMPRESSED])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_COMPRESSED], [/* kernel compressed */
+#undef CFG_KERNEL_COMPRESSED])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_OSKERNELSYS_PADDR])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_OSKERNELSYS_PADDR], [/* oskernel.sys paddr */
+#undef CFG_KERNEL_OSKERNELSYS_PADDR])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_IMAGE_PADDR])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_IMAGE_PADDR], [/* kernel image paddr */
+#undef CFG_KERNEL_IMAGE_PADDR])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_INT_MAX_INTERRUPTER])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_INT_MAX_INTERRUPTER], [/* max interrupter */
+#undef CFG_INT_MAX_INTERRUPTER])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_METHOD_RM])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_METHOD_RM], [/* sched method rate mute */
+#undef CFG_KERNEL_SCHED_METHOD_RM])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_KERNEL_SCHED_METHOD_RM], [test ${CFG_KERNEL_SCHED_METHOD_RM} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_KERNEL_SCHED_METHOD_RM_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_KERNEL_SCHED_METHOD_RM_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_METHOD_TIMESLICE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_METHOD_TIMESLICE], [/* sched method timeslice */
+#undef CFG_KERNEL_SCHED_METHOD_TIMESLICE])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_KERNEL_SCHED_METHOD_TIMESLICE], [test ${CFG_KERNEL_SCHED_METHOD_TIMESLICE} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_KERNEL_SCHED_METHOD_TIMESLICE_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_KERNEL_SCHED_METHOD_TIMESLICE_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_MAX_THREAD])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_MAX_THREAD], [/* thread maximum */
+#undef CFG_KERNEL_SCHED_MAX_THREAD])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_MAX_PRIORITY])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_MAX_PRIORITY], [/* priority maximum */
+#undef CFG_KERNEL_SCHED_MAX_PRIORITY])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_HAVE_THREAD_RELATIONSHIP])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_HAVE_THREAD_RELATIONSHIP], [/* thread relationship */
+#undef CFG_KERNEL_SCHED_HAVE_THREAD_RELATIONSHIP])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_HZ])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_HZ], [/* kernel sched HZ */
+#undef CFG_KERNEL_SCHED_HZ])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_MM_MM])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_MM_MM], [/* memory management */
+#undef CFG_MM_MM])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_MM_MM], [test ${CFG_MM_MM} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_MM_MM_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_MM_MM_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_MM_MMU])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_MM_MMU], [/* memory management unit */
+#undef CFG_MM_MMU])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_MM_MMU], [test ${CFG_MM_MMU} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_MM_MMU_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_MM_MMU_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS], [/* file system support */
+#undef CFG_FS])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_FS], [test ${CFG_FS} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_FS_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_FS_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS_TFS])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS_TFS], [/* tiny file system support */
+#undef CFG_FS_TFS])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS_TFS_MAX_FILE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS_TFS_MAX_FILE], [/* max file number in tiny file system. */
+#undef CFG_FS_TFS_MAX_FILE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS_PROCESS_MAX_FD])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS_PROCESS_MAX_FD], [/* max fd per process */
+#undef CFG_FS_PROCESS_MAX_FD])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_GUI])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_GUI], [/* gui */
+#undef CFG_GUI])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_GUI], [test ${CFG_GUI} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_GUI_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_GUI_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_VBE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_VBE], [/* vbe */
+#undef CFG_VBE])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_VBE], [test ${CFG_VBE} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_VBE_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_VBE_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_VBE_MODE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_VBE_MODE], [/* vbe mode */
+#undef CFG_VBE_MODE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_LANG_GB2312])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_LANG_GB2312], [/* gb2312 support */
+#undef CFG_LANG_GB2312])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_MW])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_MW], [/* microwindows support */
+#undef CFG_MW])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_MW], [test ${CFG_MW} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_MW_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_MW_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DRIVER_NKB])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DRIVER_NKB], [/* normal keybord */
+#undef CFG_DRIVER_NKB])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_DRIVER_NKB], [test ${CFG_DRIVER_NKB} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DRIVER_NKB_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DRIVER_NKB_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DRIVER_PS2MOUSE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DRIVER_PS2MOUSE], [/* ps2 mouse */
+#undef CFG_DRIVER_PS2MOUSE])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_DRIVER_PS2MOUSE], [test ${CFG_DRIVER_PS2MOUSE} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DRIVER_PS2MOUSE_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DRIVER_PS2MOUSE_FALSE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_PLATFORM])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_YIOS_KERNEL])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_YIOS_KERNEL], [/* yios kernel */
+#undef CFG_YIOS_KERNEL])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_PLATFORM])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_PLATFORM], [/* platform */
+#undef CFG_PLATFORM])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DEBUG])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DEBUG], [/* debug */
+#undef CFG_DEBUG])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_DEBUG], [test ${CFG_DEBUG} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DEBUG_METHOD_SERIAL_PORT])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DEBUG_METHOD_SERIAL_PORT], [/* debug method port */
+#undef CFG_DEBUG_METHOD_SERIAL_PORT])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_DEBUG_METHOD_SERIAL_PORT], [test ${CFG_DEBUG_METHOD_SERIAL_PORT} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_METHOD_SERIAL_PORT_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DEBUG_METHOD_SERIAL_PORT_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DEBUG_METHOD_MESSAGE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DEBUG_METHOD_MESSAGE], [/* debug method message */
+#undef CFG_DEBUG_METHOD_MESSAGE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL], [/* kernel */
+#undef CFG_KERNEL])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_COMPRESSED])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_COMPRESSED], [/* kernel compressed */
+#undef CFG_KERNEL_COMPRESSED])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_OSKERNELSYS_PADDR])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_OSKERNELSYS_PADDR], [/* oskernel.sys paddr */
+#undef CFG_KERNEL_OSKERNELSYS_PADDR])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_IMAGE_PADDR])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_IMAGE_PADDR], [/* kernel image paddr */
+#undef CFG_KERNEL_IMAGE_PADDR])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_INT_MAX_INTERRUPTER])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_INT_MAX_INTERRUPTER], [/* max interrupter */
+#undef CFG_INT_MAX_INTERRUPTER])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_METHOD_RM])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_METHOD_RM], [/* rate monotonic sched method */
+#undef CFG_KERNEL_SCHED_METHOD_RM])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_METHOD_TIMESLICE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_METHOD_TIMESLICE], [/* sched method timeslice */
+#undef CFG_KERNEL_SCHED_METHOD_TIMESLICE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_MAX_THREAD])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_MAX_THREAD], [/* thread maximum */
+#undef CFG_KERNEL_SCHED_MAX_THREAD])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_MAX_PRIORITY])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_MAX_PRIORITY], [/* priority maximum */
+#undef CFG_KERNEL_SCHED_MAX_PRIORITY])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_HAVE_THREAD_RELATIONSHIP])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_HAVE_THREAD_RELATIONSHIP], [/* thread relationship */
+#undef CFG_KERNEL_SCHED_HAVE_THREAD_RELATIONSHIP])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_KERNEL_SCHED_HZ])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_KERNEL_SCHED_HZ], [/* kernel sched HZ */
+#undef CFG_KERNEL_SCHED_HZ])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS], [/* file system support */
+#undef CFG_FS])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_FS], [test ${CFG_FS} = 1])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_FS_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_FS_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS_TFS])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS_TFS], [/* tiny file system support */
+#undef CFG_FS_TFS])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS_TFS_MAX_FILE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS_TFS_MAX_FILE], [/* max file number in tiny file system. */
+#undef CFG_FS_TFS_MAX_FILE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_FS_PROCESS_MAX_FD])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_FS_PROCESS_MAX_FD], [/* max fd per process */
+#undef CFG_FS_PROCESS_MAX_FD])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_GUI])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_GUI], [/* gui */
+#undef CFG_GUI])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_GUI], [test ${CFG_GUI} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_GUI_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_GUI_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_VBE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_VBE], [/* vbe */
+#undef CFG_VBE])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_VBE], [test ${CFG_VBE} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_VBE_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_VBE_FALSE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_VBE_MODE])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_VBE_MODE], [/* vbe mode */
+#undef CFG_VBE_MODE])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_LANG_GB2312])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_LANG_GB2312], [/* gb2312 support */
+#undef CFG_LANG_GB2312])
+m4trace:configure.ac:149: -1- AC_DEFINE_TRACE_LITERAL([CFG_DRIVER_NKB])
+m4trace:configure.ac:149: -1- AH_OUTPUT([CFG_DRIVER_NKB], [/* normal keybord */
+#undef CFG_DRIVER_NKB])
+m4trace:configure.ac:149: -1- AM_CONDITIONAL([CFG_DRIVER_NKB], [test ${CFG_DRIVER_NKB} -ne 0])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DRIVER_NKB_TRUE])
+m4trace:configure.ac:149: -1- AC_SUBST([CFG_DRIVER_NKB_FALSE])
+m4trace:configure.ac:153: -1- AC_CONFIG_HEADERS([include/yios/config.h], [# update the timestamp
+echo 'timestamp for include/yios/config.h' >"_AM_STAMP([include/yios/config.h])"
+], [])
+m4trace:configure.ac:166: -1- AC_CONFIG_FILES([Makefile tools/Makefile \
+		boot/Makefile boot/i386/Makefile boot/arm/Makefile \
+		kernel/Makefile \
+		mm/Makefile \
+		driver/Makefile \
+        gui/Makefile \
+		hal/Makefile \
+		hal/i386/Makefile \
+		hal/i386/debug/Makefile \
+		hal/i386/init/Makefile \
+		hal/i386/mm/Makefile \
+		hal/i386/process/Makefile])
+m4trace:configure.ac:173: -1- AC_SUBST([LIB@&t@OBJS], [$ac_libobjs])
+m4trace:configure.ac:173: -1- AC_SUBST([LTLIBOBJS], [$ac_ltlibobjs])
