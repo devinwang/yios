@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>YingOS Runing On x86 Emulator</title>
+</head>
+<body>
+<h1>YingOS</h1>
+<h2>Running in javascript x86 Emulator</h2>
+<p>
+In 2004, while reading the Linux kernel source code, I used x86 Asm, and C completely wrote from scratch a real time operating system kernel, with interrupt management, paging, kernel thread, and stack management, scheduling, and preemptive multi-task scheduling, and GDB debugging Stub. For my operating system kernel, I wrote keyword, mouse, rs232, VESA driver, and in the x86 platform 32-bit protection mode to run it up.
+</p>
+<p>
+Project url <a href="https://github.com/devinwang/yios">https://github.com/devinwang/yios</a>
+</p>
+<p>
+Commands:
+<ul>
+<li>mode</li>
+<li>run 2</li>
+<li>run 8</li>
+<li>run 9</li>
+</ul>
+</p>
+<script src="v86/v86_all.js"></script>
+<script>
+"use strict";
+window.onload = function()
+{
+    var emulator = window.emulator = new V86Starter({
+        memory_size: 4 * 1024 * 1024,
+        vga_memory_size: 2 * 1024 * 1024,
+        screen_container: document.getElementById("screen_container"),
+        serial_container: document.getElementById("serial"),
+        boot_order: 531,
+        bios: {
+            url: "v86/seabios.bin",
+        },
+        vga_bios: {
+            url: "v86/vgabios.bin",
+        },
+        fda: {
+            url: "floppyts.img",
+            size: 1440*1024,
+            "async": true,
+        },
+	name: "YingOS",
+        autostart: true,
+    });
+}
+</script>
+
+
+<div id="screen_container">
+    <div style="white-space: pre; font: 14px monospace; line-height: 14px"></div>
+    <canvas style="display: none"></canvas>
+</div>
+<div id="start_emulation" style="display:none">start</div>
+<textarea cols="40" rows="12" id="serial" style="display: none"></textarea>
+<div style="min-height:50px">
+</div>
+<p>Devin @Auckland</p>
+</body>
+</html>
+
