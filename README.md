@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to YingOS
 
-You can use the [editor on GitHub](https://github.com/devinwang/yios/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+YingOS is Linux like Operating System kernel from scratch.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In 2004, while reading the Linux kernel source code, I used x86 Asm, and C completely wrote from scratch a real time operating system kernel, with interrupt management, paging, kernel thread, and stack management, scheduling, and preemptive multi-task scheduling, and GDB debugging Stub. For my operating system kernel, I wrote keyword, mouse, rs232, VESA driver, and in the x86 platform 32-bit protection mode to run it up.
 
-### Markdown
+If you are interested it, you can download a demo from [here](https://github.com/devinwang/yios/files/1169097/floppyts.img.zip), and boot it as a floppy disk in VirtualBox/VMWare/QMENU or any x86 machine.Even If you do NOT want to download it at all, you can run it in your browser [here](http://psychologist-descriptions-26713.bitballoon.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Commands
+- mode
+- run 2
+- run 8
+- run 9
 
-```markdown
-Syntax highlighted code block
+# Screenshot
+![Image of Screenshot](http://psychologist-descriptions-26713.bitballoon.com/yingos.png)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devinwang/yios/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
